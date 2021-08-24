@@ -57,6 +57,16 @@ h2 {
   padding-bottom: 7px;
 }
 
-.active:hover {
-  border-top: none;
+/* Hero Image */
+
+#hero-container {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
 }
+
+#hero-image {
+  background: url("../images/hero-image.jpg") no-repeat center center;
+  width: 100%;
+  height: 600px;
