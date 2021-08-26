@@ -22,3 +22,4 @@ The landing page will show off 3 courses along with 2 internships which will inc
 
 ### Media
 - hero-image.jpg was taken from [unsplash](https://unsplash.com/photos/uWVWQ8gF8PE)
+- contour-bg generated from [bgjar](https://bgjar.com/)
