@@ -25,3 +25,4 @@ The landing page will show off 3 courses along with 2 internships which will inc
 - contour-bg generated from [bgjar](https://bgjar.com/)
 - vietnam.jpg was taken from [unsplash](https://unsplash.com/photos/v63UL8s28Ew)
 - spain.jpg was taken from [unsplas](https://unsplash.com/photos/cB4Uqoc9D9k)
+- polygon background clip generated from [bennettfeely](https://bennettfeely.com/clippy/)
