@@ -8,6 +8,7 @@
 
 body {
   font-family: Ubuntu, Helvetica, sans-serif;
+  background-color: #faf9f6;
 }
 h1,
 h2 {
@@ -115,12 +116,7 @@ input[type="text"] {
   width: 45%;
   height: 25px;
   margin-top: 15px;
-}
-
-#hero-sign-up button:hover {
-  background-color: #708090;
-  color: white;
-  cursor: pointer;
+  background: white;
 }
 
 #hero-sign-up p {
@@ -156,4 +152,72 @@ input[type="text"] {
   word-wrap: break-word;
   border-radius: 10px;
   box-sizing: border-box;
+}
+
+/* Internships */
+
+#internships {
+  width: 100%;
+  height: 600px;
+  margin-top: 30px;
+}
+
+#our-internships {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 200%;
+}
+
+#right-internship {
+  width: 100%;
+  height: 300px;
+}
+
+#right-internship img {
+  float: left;
+  height: 300px;
+  width: 45%;
+  clip-path: polygon(0 0, 66% 0, 100% 100%, 0 100%, 0% 50%);
+}
+
+#right-internship div {
+  float: right;
+  width: 50%;
+  height: inherit;
+  margin-right: 25px;
+}
+
+#left-internship {
+  width: 100%;
+  height: 300px;
+}
+
+#left-internship img {
+  float: right;
+  height: 300px;
+  width: 45%;
+  clip-path: polygon(52% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+#left-internship div {
+  float: left;
+  width: 50%;
+  height: inherit;
+  margin-left: 25px;
+  word-wrap: break-word;
+}
+
+/* Misc. compnents */
+
+.button {
+  border-radius: 20px;
+  width: 35%;
+  height: 35px;
+  margin-top: 15px;
+}
+
+.button:hover {
+  background-color: #708090;
+  color: white;
+  cursor: pointer;
 }
