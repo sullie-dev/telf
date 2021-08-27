@@ -208,6 +208,40 @@ input[type="text"] {
   word-wrap: break-word;
 }
 
+/* faq */
+
+#faq {
+  width: 100%;
+  height: 300px;
+  background: url("../images/contour-bg.svg") no-repeat center center;
+  margin-top: 30px;
+}
+
+#faq h2 {
+  text-align: center;
+}
+
+#faq article {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#faq details {
+  border: 1px solid #404040;
+  padding: 7px 5px;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#faq summary {
+  padding: 7px 20px;
+}
+
+#faq p {
+  padding: 7px 20px;
+}
+
 /* Misc. compnents */
 
 .button {
