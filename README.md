@@ -10,10 +10,10 @@ The landing page will show off 3 courses along with 2 internships which will inc
 ### Bugs:
 ##### Solved bugs:
 - Changes to index.html did not commit due to ```git add .``` being ran inside the assets folder. 
-- This was resloved by going running ```git add .``` in the root directory
+    - This was resloved by going running ```git add .``` in the root directory
 
 ##### Unsolved bugs:
-- Currently no unsolved bugs
+- Bottom FAQ overflows into the footer
 
 
 ## Credits
