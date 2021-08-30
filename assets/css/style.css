@@ -263,7 +263,22 @@ footer hr {
   height: 100px;
   float: left;
   transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
+}
+
+footer ul {
+  list-style: none;
+  font-weight: 100;
+}
+
+footer li {
+  text-align: left;
+  margin-left: 35%;
+}
+
+footer a {
+  font-family: Ubuntu, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #faf9f6;
 }
 
 /* Misc. compnents */
@@ -279,4 +294,9 @@ footer hr {
   background-color: #708090;
   color: white;
   cursor: pointer;
+}
+
+.footer-header {
+  margin-bottom: 10px;
+  font-weight: 200;
 }
