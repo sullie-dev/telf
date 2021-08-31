@@ -221,7 +221,7 @@ input[type="text"] {
   text-align: center;
 }
 
-#faq article {
+#faq div {
   width: 70%;
   margin: 0 auto;
 }
@@ -254,7 +254,6 @@ footer {
 
 footer div {
   width: 33%;
-  height: 100%;
   float: left;
 }
 
@@ -279,6 +278,24 @@ footer a {
   font-family: Ubuntu, Helvetica, sans-serif;
   text-decoration: none;
   color: #faf9f6;
+}
+
+#payment-methods {
+  width: 100%;
+}
+
+#payment-methods i {
+  margin: 10px;
+  font-size: 195%;
+}
+
+#social-media {
+  width: 100%;
+}
+
+#social-media i {
+  margin: 10px;
+  font-size: 200%;
 }
 
 /* Misc. compnents */
