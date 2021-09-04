@@ -13,9 +13,12 @@ The landing page will show off 3 courses along with 2 internships which will inc
     - This was resloved by going running ```git add .``` in the root directory
 
 ##### Unsolved bugs:
-- Bottom FAQ overflows into the footer
 
+No active bugs
+##### Solved bugs:
 
+- Bottom FAQ overflows into the footer -- fixed by adjusting height of div container
+- Images not displaying on github pages -- fixed by adjusting filepath
 ## Credits
 ---
 ### Content
