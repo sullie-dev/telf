@@ -52,12 +52,6 @@ h2 {
   padding-top: 7px;
 }
 
-.active {
-  color: #708090;
-  border-bottom: 1px solid #708090;
-  padding-bottom: 7px;
-}
-
 /* Hero Image */
 
 #hero-container {
@@ -304,7 +298,22 @@ footer a {
   font-size: 200%;
 }
 
-/* Misc. compnents */
+/* Contact Page */
+
+#contact-us {
+  width: 100vw;
+  height: 95vh;
+  background: url("../images/contact-us.jpg") no-repeat center center/cover;
+  overflow: hidden;
+}
+
+/* Misc. classes */
+
+.active {
+  color: #708090;
+  border-bottom: 1px solid #708090;
+  padding-bottom: 7px;
+}
 
 .button {
   border-radius: 20px;
