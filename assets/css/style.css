@@ -100,10 +100,16 @@ h2 {
 #hero-sign-up input[type="email"],
 input[type="text"] {
   border-radius: 12px;
-  padding: 4px;
+  padding: 7px;
   width: 45%;
   height: 25px;
   margin: 3px;
+}
+
+#hero-sign-up label {
+  display: inline-block;
+  width: 75px;
+  vertical-align: middle;
 }
 
 #hero-sign-up button {

@@ -48,10 +48,26 @@
           method="POST"
           target="_blank"
         >
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" required /><br />
-          <label for="fname">Name</label>
-          <input type="text" name="fname" id="fname" required />
+          <fieldset>
+            <label for="fname">Name</label>
+            <input
+              type="text"
+              name="fname"
+              id="fname"
+              placeholder="Your name"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your email"
+              required
+            />
+          </fieldset>
           <p>
             <input type="checkbox" name="consent" id="consent" required /> I'm
             up for you contacting me
