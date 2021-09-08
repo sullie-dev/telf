@@ -28,4 +28,10 @@ No active bugs
 - contour-bg generated from [bgjar](https://bgjar.com/)
 - vietnam.jpg was taken from [unsplash](https://unsplash.com/photos/v63UL8s28Ew)
 - spain.jpg was taken from [unsplas](https://unsplash.com/photos/cB4Uqoc9D9k)
+- contact us bacjground was taken from [unsplash](https://unsplash.com/photos/UoqAR2pOxMo)
 - polygon background clip generated from [bennettfeely](https://bennettfeely.com/clippy/)
+
+- china.jpeg was taken from [unsplash](https://unsplash.com/photos/5h_dMuX_7RE)
+- japan.jepg was taken from [unsplash](https://unsplash.com/photos/8sOZJ8JF0S8)
+- italy.jpeg was taken from [unsplash](https://unsplash.com/photos/cYrMQA7a3Wc)
+- online.jpeg was taken from [unsplash](https://unsplash.com/photos/ylveRpZ8L1s)
