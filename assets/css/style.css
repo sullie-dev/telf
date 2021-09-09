@@ -359,6 +359,40 @@ input[type="tel"] {
   width: 150px;
 }
 
+/* Top Destiation page */
+
+.destination-container {
+  float: left;
+  width: 99vw;
+  height: fit-content;
+  margin: 0 5px 5px 5px;
+}
+
+.destination-container img {
+  width: 25%;
+}
+
+.destination-container article {
+  width: 65%;
+}
+
+.left-img {
+  clip-path: polygon(0 0, 66% 0, 100% 100%, 0 100%, 0% 50%);
+  float: left;
+}
+
+.left-info {
+  float: left;
+}
+
+.right-img {
+  clip-path: polygon(52% 0, 100% 0, 100% 100%, 0 100%);
+  float: right;
+}
+.right-info {
+  float: right;
+}
+
 /* Misc. classes */
 
 .active {
