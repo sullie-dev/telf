@@ -249,12 +249,12 @@ input[type="text"] {
 }
 
 footer {
-  width: 100%;
+  clear: both;
+  width: 100vw;
   height: 150px;
   text-align: center;
   background: rgba(80, 80, 80, 0.6);
   color: #faf9f6;
-  /* margin-top: 35px; */
   padding-top: 25px;
 }
 
@@ -297,6 +297,14 @@ footer a {
 
 #social-media {
   width: 100%;
+}
+
+#social-media ul {
+  list-style: none;
+}
+
+#social-media li {
+  float: left;
 }
 
 #social-media i {
