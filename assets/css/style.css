@@ -97,8 +97,8 @@ h2 {
   font-weight: 200;
 }
 
-#hero-sign-up input[type="email"],
-input[type="text"] {
+#hero-sign-up #fname,
+#email {
   border-radius: 12px;
   padding: 7px;
   width: 45%;
@@ -338,9 +338,9 @@ footer a {
   margin-left: 45px;
 }
 
-#contact-us input[type="email"],
-input[type="text"],
-input[type="tel"] {
+#contact-us #name,
+#cemail,
+#phone {
   border-radius: 12px;
   padding: 7px;
   width: 46.3%;
@@ -428,6 +428,27 @@ input[type="tel"] {
   font-weight: 200;
 }
 
+/* For large to medium screens from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+  #hero-sign-up #fname,
+  #email {
+    width: 55%;
+  }
+
+  /* Contact us  */
+
+  #contact-us #name,
+  #cemail,
+  #phone {
+    width: 75%;
+  }
+
+  /* Top Destination */
+
+  .destination-container article {
+    margin: 3% 2.5%;
+  }
+}
 /* For large to small screens from 980 wide and down */
 @media screen and (max-width: 980px) {
   #logo {
@@ -572,9 +593,9 @@ input[type="tel"] {
     margin-left: 0px;
   }
 
-  #contact-us input[type="email"],
-  input[type="text"],
-  input[type="tel"] {
+  #contact-us #name,
+  #cemail,
+  #phone {
     width: 85%;
   }
 
@@ -623,27 +644,5 @@ input[type="tel"] {
   }
   .right-info {
     float: left;
-  }
-}
-
-/* For large to medium screens from 1200px wide and down */
-@media screen and (max-device-width: 1200px) {
-  #hero-sign-up input[type="email"],
-  input[type="text"] {
-    width: 55%;
-  }
-
-  /* Contact us  */
-
-  #contact-us input[type="email"],
-  input[type="text"],
-  input[type="tel"] {
-    width: 75%;
-  }
-
-  /* Top Destination */
-
-  .destination-container article {
-    margin: 3% 2.5%;
   }
 }
