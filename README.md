@@ -13,8 +13,7 @@ The landing page will show off 3 courses along with 2 internships which will inc
     - This was resloved by going running ```git add .``` in the root directory
 
 ##### Unsolved bugs:
-
-No active bugs
+- Spanish internship on mobile is floating to the right and not aligning with with the Vietnam text
 ##### Solved bugs:
 
 - Bottom FAQ overflows into the footer -- fixed by adjusting height of div container

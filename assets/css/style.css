@@ -560,4 +560,37 @@ input[type="tel"] {
     width: 95%;
     transform: rotate(0deg);
   }
+
+  /* Contact us  */
+
+  #contact-us {
+    width: 100%;
+    height: 95vh;
+  }
+  #contact-us h2 {
+    padding: 33px;
+  }
+
+  #contact-us div {
+    width: 100%;
+  }
+
+  #contact-us form {
+    margin-left: 0px;
+  }
+
+  #contact-us input[type="email"],
+  input[type="text"],
+  input[type="tel"] {
+    width: 85%;
+  }
+
+  #contact-us textarea {
+    width: 85%;
+  }
+
+  #contact-us button {
+    margin: 12px;
+    width: 200px;
+  }
 }
