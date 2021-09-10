@@ -428,13 +428,6 @@ input[type="tel"] {
   font-weight: 200;
 }
 
-/* For large to medium screens from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-  #courses div {
-    width: 45%;
-  }
-}
-
 /* For large to small screens from 980 wide and down */
 @media screen and (max-width: 980px) {
   #logo {
@@ -603,10 +596,6 @@ input[type="tel"] {
     margin: 0 5px 5px 5px;
   }
 
-  /* .destination-container img {
-    width: 0;
-  } */
-
   .destination-container article {
     width: 95%;
     height: fit-content;
@@ -634,5 +623,27 @@ input[type="tel"] {
   }
   .right-info {
     float: left;
+  }
+}
+
+/* For large to medium screens from 1200px wide and down */
+@media screen and (max-device-width: 1200px) {
+  #hero-sign-up input[type="email"],
+  input[type="text"] {
+    width: 55%;
+  }
+
+  /* Contact us  */
+
+  #contact-us input[type="email"],
+  input[type="text"],
+  input[type="tel"] {
+    width: 75%;
+  }
+
+  /* Top Destination */
+
+  .destination-container article {
+    margin: 3% 2.5%;
   }
 }
