@@ -158,6 +158,7 @@ input[type="text"] {
   word-wrap: break-word;
   border-radius: 10px;
   box-sizing: border-box;
+  color: #faf9f6;
 }
 
 /* Internships */
@@ -425,4 +426,138 @@ input[type="tel"] {
 .footer-header {
   margin-bottom: 10px;
   font-weight: 200;
+}
+
+/* For large to medium screens from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+  #courses div {
+    width: 45%;
+  }
+}
+
+/* For large to small screens from 980 wide and down */
+@media screen and (max-width: 980px) {
+  #logo {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  #logo h1 {
+    text-align: center;
+  }
+
+  #menu {
+    width: 100vw;
+    height: 50px;
+  }
+
+  #menu ul {
+    width: 100vw;
+  }
+
+  #menu li {
+    width: fit-content;
+    margin: 25px;
+    float: left;
+  }
+
+  #hero-sign-up {
+    right: 0;
+    width: fit-content;
+  }
+
+  #courses {
+    height: fit-content;
+    background: url("../images/contour-bg.svg") no-repeat center center/cover;
+  }
+
+  #courses div {
+    width: 95%;
+  }
+
+  #internships {
+    margin-top: 100px;
+    height: fit-content;
+  }
+
+  #right-internship {
+    width: 95%;
+    color: #faf9f6;
+    height: fit-content;
+    float: left;
+    background: rgba(80, 80, 80, 0.6);
+    padding: 30px 10px 15px 10px;
+    margin: 7% 2.5%;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  #right-internship img {
+    display: none;
+  }
+
+  #right-internship div {
+    float: left;
+    width: 95%;
+  }
+
+  #right-internship h2 {
+    text-align: center;
+  }
+
+  #left-internship {
+    width: 95%;
+    color: #faf9f6;
+    height: fit-content;
+    float: left;
+    background: rgba(80, 80, 80, 0.6);
+    padding: 30px 10px 10px 10px;
+    margin: 7% 2.5%;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  #left-internship div {
+    float: left;
+    width: 95%;
+  }
+
+  #left-internship img {
+    display: none;
+  }
+
+  #left-internship h2 {
+    text-align: center;
+  }
+
+  #left-internship ul {
+    list-style: none;
+  }
+
+  #faq {
+    width: 100vw;
+    height: fit-content;
+    background: none;
+  }
+
+  #faq div {
+    width: 95%;
+  }
+  footer {
+    height: 350px;
+    padding: 20px 0;
+  }
+
+  footer div {
+    width: 100%;
+  }
+
+  footer hr {
+    margin: 15px;
+    border: 1px solid #faf9f6;
+    height: 0;
+    width: 95%;
+    transform: rotate(0deg);
+  }
 }
