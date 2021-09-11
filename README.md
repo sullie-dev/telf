@@ -79,10 +79,11 @@ Project is deployed using GitHub pages, to deploy projects on GitHub pages;
 #### Unsolved bugs:
 - Spanish internship on mobile is floating to the right and not aligning with with the Vietnam text
 - Top spots floats to the next line on small screens
-## Credits
+## Content
 ---
-#### Content
+#### Credits
 - Header was inspired by the [Love running project](https://github.com/sullie-dev/love-running)
+- Javascript for **Find out more** button was researched using Google and Stack Overflow to confirm it's functionality
 
 #### Media
 
@@ -100,3 +101,10 @@ All images were taken from [unsplash](https://unsplash.com)
 
 - contour-bg generated using [bgjar](https://bgjar.com/)
 - polygon background clip generated using [bennettfeely](https://bennettfeely.com/clippy/)
+
+## Technologies used
+- HTML 5
+- CSS 3
+- JavaScript
+- Font Awsome
+- GitHub
