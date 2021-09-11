@@ -126,7 +126,7 @@ h2 {
 
 #hero-sign-up button:hover {
   background-color: #708090;
-  color: white;
+  color: #faf9f6;
 }
 
 #hero-sign-up p {
@@ -381,11 +381,15 @@ footer a {
   margin: 0 5px 5px 5px;
 }
 
+.destination-container h3 {
+  text-align: center;
+}
+
 .destination-container img {
   width: 25%;
 }
 
-.destination-container article {
+.destination-container div {
   width: 65%;
 }
 
