@@ -112,6 +112,10 @@ h2 {
   vertical-align: middle;
 }
 
+#hero-sign-up label:last-child {
+  width: 95%;
+}
+
 #hero-sign-up button {
   border-radius: 12px;
   width: 45%;
