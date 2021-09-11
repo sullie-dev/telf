@@ -448,6 +448,19 @@ footer a {
   .destination-container article {
     margin: 3% 2.5%;
   }
+
+  .button {
+    border-radius: 20px;
+    width: 35%;
+    height: 35px;
+    margin-top: 15px;
+  }
+
+  .button:hover {
+    background-color: #708090;
+    color: white;
+    cursor: pointer;
+  }
 }
 /* For large to small screens from 980 wide and down */
 @media screen and (max-width: 980px) {
@@ -644,5 +657,18 @@ footer a {
   }
   .right-info {
     float: left;
+  }
+
+  .button {
+    border-radius: 20px;
+    width: 35%;
+    height: 35px;
+    margin-top: 15px;
+  }
+
+  .button:hover {
+    background-color: #708090;
+    color: white;
+    cursor: pointer;
   }
 }
